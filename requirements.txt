@@ -1,0 +1,30 @@
+# Unified Local Backend Requirements
+# Install with: pip install -r requirements.txt
+
+# Core FastAPI and server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# HTTP requests
+requests==2.31.0
+
+# CORS support
+starlette==0.27.0
+
+# For main1.py (PLIP Backend)
+# Note: PLIP itself must be installed separately
+
+# For main2.py (Docking Backend)
+# Note: AutoDock Vina must be installed separately
+# Note: MGLTools must be installed separately
+# Note: Open Babel must be installed separately
+
+# For main3.py (RFL-Score Backend)
+biopython==1.81
+matplotlib==3.8.0
+# Note: Open Babel must be installed separately
+# Note: RFL-Score repository must be cloned separately
+
+# Optional but recommended
+pydantic==2.4.2
